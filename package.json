@@ -1,0 +1,38 @@
+{
+  "name": "catch-stream",
+  "version": "0.0.1",
+  "description": "catch-stream catches errors that piped streams emitted.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shishidosoichiro/catch-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "pipe",
+    "catch"
+  ],
+  "author": "Soichiro Shishido",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^0.10.4",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3",
+    "vinyl": "^1.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/shishidosoichiro/catch-stream/issues"
+  },
+  "homepage": "https://github.com/shishidosoichiro/catch-stream#readme"
+}
